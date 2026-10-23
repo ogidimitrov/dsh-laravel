@@ -1,0 +1,3 @@
+- insert:
+    - id: laravel-skills
+      name: 'dsh-laravel-skills/provider'
