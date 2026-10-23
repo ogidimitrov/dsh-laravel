@@ -9,11 +9,11 @@ Version-aware Laravel engineering skills for [DeepSeek Harness](https://github.c
 The plugin is a DeepSeek Harness bundle: a package whose `dsh.bundle.patch` mounts a skill provider.
 
 ```bash
-# from a registry
-dsh plugin --profile desktop add dsh-laravel-skills
-
 # straight from this repository
 dsh plugin --profile desktop add github:ogidimitrov/dsh-laravel
+
+# or, once published to npm
+dsh plugin --profile desktop add dsh-laravel-skills
 ```
 
 Then restart the app. The skills appear in the next session's catalog and are invocable by name (`laravel-stack`, `laravel-route`, ...).
